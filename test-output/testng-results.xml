@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Click on Forgot Password Link [[ChromeDriver: chrome on WINDOWS (114666b85337cbf6d23f2bb8c0d6d608)] -> xpath: //p[@class = 'oxd-text oxd-text--p orangehrm-login-forgot-header']]]]>
+    </line>
+    <line>
+      <![CDATA[Reset Title Message[[ChromeDriver: chrome on WINDOWS (114666b85337cbf6d23f2bb8c0d6d608)] -> xpath: //h6[@class='oxd-text oxd-text--h6 orangehrm-forgot-password-title']]]]>
+    </line>
+  </reporter-output>
+  <suite name="Sanity Suite" duration-ms="8916" started-at="2022-12-13T22:33:16 GMT" finished-at="2022-12-13T22:33:25 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="ForgotPasswordPageTest.userShouldNavigateToForgotPasswordPageSuccessfully()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordPageTest@2eda0940]" name="userShouldNavigateToForgotPasswordPageSuccessfully" class="com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordPageTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="ForgotPasswordPageTest.userShouldNavigateToForgotPasswordPageSuccessfully()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordPageTest@2eda0940]" name="userShouldNavigateToForgotPasswordPageSuccessfully" class="com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Sanity Test" duration-ms="8916" started-at="2022-12-13T22:33:16 GMT" finished-at="2022-12-13T22:33:25 GMT">
+      <class name="com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordPageTest@2eda0940]" name="setUp" is-config="true" duration-ms="6100" started-at="2022-12-13T22:33:16 GMT" finished-at="2022-12-13T22:33:22 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordPageTest@2eda0940]" name="inIt" is-config="true" duration-ms="26" started-at="2022-12-13T22:33:22 GMT" finished-at="2022-12-13T22:33:23 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="userShouldNavigateToForgotPasswordPageSuccessfully()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordPageTest@2eda0940]" name="userShouldNavigateToForgotPasswordPageSuccessfully" duration-ms="1177" started-at="2022-12-13T22:33:23 GMT" finished-at="2022-12-13T22:33:24 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on Forgot Password Link [[ChromeDriver: chrome on WINDOWS (114666b85337cbf6d23f2bb8c0d6d608)] -> xpath: //p[@class = 'oxd-text oxd-text--p orangehrm-login-forgot-header']]]]>
+            </line>
+            <line>
+              <![CDATA[Reset Title Message[[ChromeDriver: chrome on WINDOWS (114666b85337cbf6d23f2bb8c0d6d608)] -> xpath: //h6[@class='oxd-text oxd-text--h6 orangehrm-forgot-password-title']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldNavigateToForgotPasswordPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordPageTest@2eda0940]" name="tearDown" is-config="true" duration-ms="732" started-at="2022-12-13T22:33:24 GMT" finished-at="2022-12-13T22:33:25 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrmlive.opensourcedemo.testsuite.ForgotPasswordPageTest -->
+    </test> <!-- Sanity Test -->
+  </suite> <!-- Sanity Suite -->
+</testng-results>
